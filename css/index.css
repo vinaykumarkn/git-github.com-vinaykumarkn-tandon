@@ -1194,8 +1194,8 @@ body {
 }
 
 .btn-outline-blue {
-    border: 1px solid var(--dark);
-    color: var(--dark);
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
     background: 0 0
 }
 
@@ -1236,7 +1236,7 @@ body {
 
 nav {
     height: 4rem;
-    background-color: var(--white);
+    background-color: #0A0118;
     position: relative;
     border-bottom: 1px solid #eee
 }
@@ -1262,7 +1262,7 @@ nav {
 }
 
 .navbar-menu a {
-    color: var(--dark)
+    color: #FFFFFF; 
 }
 
 .navbar-menu>li {
@@ -1281,14 +1281,14 @@ nav {
 .navbar-menu-link svg {
     width: 1.5rem;
     margin-left: auto;
-    fill: var(--dark)
+    fill: #FFFFFF;
 }
 
 .navbar-menu-dropdown {
     position: absolute;
     top: 5rem;
     left: 0;
-    background-color: var(--white);
+    background-color: #2B2338;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
     border-radius: 0 0 8px 8px;
     padding: 10px;
@@ -1320,18 +1320,18 @@ li:hover .navbar-menu-dropdown {
 }
 
 .navbar-menu-dropdown-item:hover {
-    background-color: var(--white-d-1)
+    background-color: #0A0118;
 }
 
 .navbar-action {
     display: flex;
     align-items: center;
-    margin-left: 1.5rem
+    /* margin-left: 1.5rem */
 }
 
 .navbar-action>* {
     margin: 0 .5rem;
-    --blue: var(--dark)
+    --blue: #FFFFFF;
 }
 
 @keyframes fade {
@@ -1885,7 +1885,7 @@ textarea::placeholder {
 }
 
 .text-dark {
-    color: var(--dark)
+    color: #FFFFFF;
 }
 
 .fill-white {
