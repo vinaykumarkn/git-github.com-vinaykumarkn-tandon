@@ -1224,7 +1224,7 @@ body {
 }
 
 .btn-green:hover {
-    background: var(--green-d-1)
+    background: #14003F;
 }
 
 @keyframes btn-loading-spinner {
@@ -1458,7 +1458,7 @@ footer .brand {
 footer .footer__list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 32px;
+    grid-gap: 170px;
     padding-bottom: 40px
 }
 
