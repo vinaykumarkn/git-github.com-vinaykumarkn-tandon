@@ -1458,7 +1458,7 @@ footer .brand {
 footer .footer__list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 170px;
+    grid-gap: 150px;
     padding-bottom: 40px
 }
 
