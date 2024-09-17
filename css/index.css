@@ -176,9 +176,9 @@ header .form-group .icon.right {
     top: 0;
     width: 200px;
     height: 100%;
-    transform: skewX(-16deg);
+    transform: skewX(15deg);
     background-color: var(--white);
-    right: calc(95% - 45px)
+    right: calc(100% - 80px)
 }
 #viewed-business{
     background: var(--white-d-1);
