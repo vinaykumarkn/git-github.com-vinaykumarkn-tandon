@@ -320,11 +320,11 @@ body {
 }
 
 .btn-blue {
-    background: var(--dark)
+    background: #488CCB;
 }
 
 .btn-blue:hover {
-    background: var(--dark-d-1)
+    background: #14003F;
 }
 
 .btn-orange {

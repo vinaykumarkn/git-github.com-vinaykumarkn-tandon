@@ -144,15 +144,15 @@ header .form-group .icon.right {
 
 .header-right {
     width: 100%;
-    /* background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif); */
+    background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
     background-size: cover;
     background-position: center;
     border-radius: 0 8px 8px 0;
     position: relative;
-    background-color: black;
+    /* background-color: black;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
    
 }
 
