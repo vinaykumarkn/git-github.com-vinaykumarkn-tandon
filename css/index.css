@@ -1731,7 +1731,7 @@ footer .footer__title svg {
     width: 2rem;
     height: 2rem;
     background: var(--white);
-    color: var(--red);
+    color: #488CCB;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
