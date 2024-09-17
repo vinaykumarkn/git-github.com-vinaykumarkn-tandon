@@ -54,7 +54,7 @@ header .indicator>:last-child {
 
 header .indicator>.active {
     text-decoration: underline;
-    color: var(--orange);
+    color: #488CCB;
     text-underline-offset: 4px;
     font-weight: 600
 }
@@ -1231,11 +1231,11 @@ body {
 }
 
 .btn-orange {
-    background: var(--orange)
+    background: #488CCB;
 }
 
 .btn-orange:hover {
-    background: var(--orange-d-1)
+    background: #14003F;
 }
 
 .btn-green {
