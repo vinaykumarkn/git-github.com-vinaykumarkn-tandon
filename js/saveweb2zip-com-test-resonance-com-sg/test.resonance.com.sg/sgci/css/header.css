@@ -1,0 +1,255 @@
+:root {
+  --primary-color: #fff;
+  --secondr-color: #282828;
+  --third-color: #a02842;
+  --fourth-color: #00a5b5;
+  --white-color: #fff;
+  --black-color: #000;
+  --orange-color: #f89033;
+  --standard-padding: 5px 10px;
+  --line-color: #f8f8f8;
+}
+#mainHeader {
+  border-bottom: 2px solid #f2f2f2;
+  z-index: 9999;
+  position: relative;
+}
+.orange-col {
+  color: var(--orange-color) !important;
+}
+
+.maroon-col {
+  color: var(--third-color) !important;
+}
+
+.topbar {
+  background-color: var(--black-color);
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.topbar * {
+  color: var(--white-color);
+}
+
+.logo {
+  margin-right: 30px;
+  width: 70px;
+}
+.topbar-link {
+  line-height: 1;
+  text-align: center;
+  display: block;
+  font-size: 14px;
+}
+
+.topbar .logo img {
+  width: auto;
+  height: 25px;
+}
+.topbar .search {
+  width: 400px;
+  padding: var(--standard-padding);
+  margin: 0 auto !important;
+  position: relative;
+}
+
+@media all and (max-width: 1200px) {
+  .topbar .search {
+    width: 300px;
+  }
+  .topbar-link {
+    font-size: 12px;
+  }
+  .megamenu-btn,
+  .topbar .profile button,
+  .main-menu .navbar a {
+    font-size: 12px !important;
+  }
+}
+.topbar .search input {
+  border-radius: 50px;
+  height: 32px;
+}
+
+.topbar .search button {
+  position: absolute;
+  color: var(--third-color);
+  top: 8px;
+  right: 25px;
+}
+
+.topbar .search button i {
+  color: var(--third-color);
+}
+
+.topbar button {
+  background-color: transparent;
+  border: 0px;
+}
+
+.has-border {
+  border-left: 1px solid #606060;
+  border-right: 1px solid #606060;
+  height: 48px;
+  display: flex;
+  padding: 10px;
+}
+
+i.top-space {
+  padding-top: 8px;
+}
+
+.has-border.left-border {
+  border-right: none;
+}
+
+.megamenu-btn {
+  font-size: 14px;
+}
+
+.topbar i {
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+.megamenu-btn i {
+  font-size: 16px;
+  color: var(--primary-color);
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.topbar .profile button {
+  padding: var(--standard-padding);
+  font-size: 14px;
+}
+/* ye-edit */
+header .dropdown:hover .dropdown-menu {
+  display: block;
+  top: 40px;
+} /* ye-edit */
+
+.main-menu {
+  background-color: var(--primary-color);
+}
+
+.main-menu .navbar a {
+  font-size: 16px;
+  color: var(--black-color);
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-size: 30px !important;
+  padding: 0;
+}
+.navbar-brand img {
+  width: 100%;
+  max-width: 100px;
+}
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav-link {
+  padding: 0 10px;
+  border-right: 1px solid white;
+}
+
+.nav-item {
+  border-left: 1px solid #dedede;
+  padding: 0px 10px;
+  margin-bottom: 0;
+}
+.nav-item:first-child {
+  border-left: 0px;
+}
+.nav-item:last-child {
+  padding-right: 0px;
+}
+.nav-item:last-child .nav-link {
+  border-right: none;
+}
+
+.mega-menu {
+  top: 46px;
+  border-radius: 0px;
+  background-color: var(--secondr-color);
+  padding: 30px 25px;
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+}
+
+.mega-menu .mega-menu-title span {
+  font-size: px;
+  display: block;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.mega-menu .mega-menu-list .mega-menu-list-title {
+  color: var(--fourth-color);
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.mega-menu .mega-menu-list * {
+  font-size: 14px;
+}
+.mega-menu .mega-menu-list ul {
+  padding: 0px;
+  list-style: none;
+}
+
+.mega-menu .mega-menu-list ul li {
+  padding: 5px 0px;
+  margin-bottom: 0;
+}
+.mega-menu .mega-menu-list ul li:last-child {
+  padding-bottom: 0px;
+}
+.mega-menu .mega-menu-list ul li a,
+.mega-menu .mega-menu-title span,
+.mega-menu .mega-menu-list .mega-menu-list-title {
+  line-height: 1;
+  display: block;
+}
+.mega-menu-col {
+  margin-bottom: 30px;
+}
+.mega-menu .row {
+  justify-content: space-between;
+}
+@media all and (max-width: 1200px) {
+  .mega-menu .mega-menu-list ul li a,
+  .mega-menu .mega-menu-list .mega-menu-list-title {
+    font-size: 14px;
+  }
+
+  .mega-menu .mega-menu-title span {
+    font-size: 18px;
+  }
+  .mega-menu .row {
+    justify-content: flex-start;
+  }
+}
+
+.not-clickable{
+  pointer-events: none;
+}
+
+.has-indent{
+  position: relative;
+  padding-left: 10px;
+}
+
+.has-indent::before{
+  position: absolute;
+  content: "-";
+  left: 0;
+  top: 0;
+
+}
+

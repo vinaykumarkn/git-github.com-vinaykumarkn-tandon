@@ -1,0 +1,2424 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGCI</title>
+
+    <!--Bootstrap v5.3.3-->
+    <link rel="stylesheet" href="../../test.resonance.com.sg/sgci/css/bootstrap.css">
+
+    <!--Header Menu CSS-->
+    <link rel="stylesheet" href="../../test.resonance.com.sg/sgci/css/header.css">
+
+    <!--Header Footer CSS-->
+    <link rel="stylesheet" href="../../test.resonance.com.sg/sgci/css/footer.css">
+
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="../../test.resonance.com.sg/sgci/css/style.css">
+    
+    <!-- fontawesome 6 CSS-->
+    <link rel="stylesheet" href="../../test.resonance.com.sg/sgci/css/fontawsome.css">
+
+    <link rel="stylesheet" href="../../cdn.jsdelivr.net/npm/swiper%4011/swiper-bundle.min.css">
+
+    <script src="../../test.resonance.com.sg/sgci/js/fontawesome.js"></script>
+
+
+</head>
+
+<body>
+    <header id="mainHeader">
+        <div class="container-fluid topbar">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center position-relative">
+                    <div class="d-flex justify-content-between align-items-center leftside">
+                        <div class="logo">
+                            <!-- <img src="images/Logo.png" alt=""> -->
+                            
+                            <a class="topbar-link" href="javascript:void(0)">JustConnect</a>
+                        </div>
+                        <div class="dropdown has-border">
+                            <button class="megamenu-btn" type="button" id="topDropdownMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span> Division Lookup</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </button>
+
+                        </div>
+
+                    </div>
+                    <div class="search ms-3 d-flex">
+
+                        <input class="form-control" list="datalistOptions w-100 d-block" id="exampleDataList" placeholder="Type Your Search Here...">
+                        <button class="search-btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center rightside">
+                        <div class="bookmark has-border left-border">
+                            <span class="topbar-link">My <br> Bookmarks</span>
+                        </div>
+                        <div class="group has-border left-border">
+                            <a href="staff-directory.html" class="topbar-link">Staff <br> Directory</a>
+                        </div>
+                        <div class="group has-border left-border">
+                            <a href="organisation-chart.html" class="topbar-link">Organisation <br> Chart</a>
+                        </div>
+                        <div class="profile has-border left-border dropdown">
+                            <button class="profile-btn" type="button" id="topDropdownProfile" data-bs-toggle="dropdown" style="padding: 0;" aria-expanded="false">
+
+                                <span class="pe-1">Hello, David Tan</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </button>
+
+
+                        </div>
+                    </div>
+                    <div class="mega-menu dropdown-menu w-100" aria-labelledby="topDropdownMenu">
+                        <div class="container px-0">
+                            <div class="row  g-0">
+                                <div class="col-4 col-xl-2">
+                                    <div class="mega-menu-col">
+                                        <div class="mega-menu-title">
+                                            <span>JUDICIAL <br> SERVICES</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-xl-2"></div>
+                                <div class="col-4 col-xl-2">
+                                    <div class="mega-menu-col">
+                                        <div class="mega-menu-title">
+                                            <span>JUDICIAL SERVICE <br>
+                                                COMMISSION</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-4 col-xl-2 d-none d-xl-block">
+                                    <div class="mega-menu-col col-2">
+                                        <div class="mega-menu-title">
+                                            <span>JUDICIAL <br>
+                                                ADMINISTRATION</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-xl-2"></div>
+                                <div class="col-12"></div>
+
+                                <div class="col-4 col-xl-2">
+                                    <div class="mega-menu-col">
+                                        <div class="mega-menu-list">
+                                            <a href="#" class="mega-menu-list-title">Supreme Court</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Supreme Court Bench</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Judicial Officers </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> Justices' Law Clerks</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> Registry</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        SICC Business Development
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> Court Services (MJs to Judges &amp; Court Orderlies)</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="mega-menu-col">
+                                        <div class="mega-menu-list">
+                                            <a href="#" class="mega-menu-list-title">State Courts</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Judicial Officers</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Criminal Courts A</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Criminal Courts B </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> Civil Courts</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> Community Courts &amp; Tribunals</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> Court Dispute Resolution</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Office of the Registrar</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> Strategic Planning &amp; Technology</a>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="col-4 col-xl-2">
+                                    <div class="mega-menu-col">
+                                        <div class="mega-menu-col">
+                                            <div class="mega-menu-list">
+                                                <a href="#" class="mega-menu-list-title">Family Justice Courts</a>
+                                                <ul>
+                                                    <li><a href="#">Judical Officers</a></li>
+                                                    <li><a href="#"> Family</a></li>
+                                                    <li><a href="#">Office of the Registrar</a></li>
+                                                    <li><a href="#">Strategic Planning &amp; Research</a></li>
+                                                    <li><a href="#">Therapeutic Justice Transformation Office</a></li>
+
+                                                    <li><a href="#" class="not-clickable">Family Protection &amp; Support </a></li>
+                                                    <li><a href="#" class="has-indent">Registry &amp; Court Operations </a></li>
+                                                    <li><a href="#" class="has-indent">Court of Protection </a></li>
+                                                    <li><a href="#" class="has-indent">Maintenance &amp; Enforcement Court </a></li>
+                                                    <li><a href="#" class="has-indent">Mental Capacity, Adoption &amp; Probate </a></li>
+                                                    <li><a href="#" class="has-indent">Youth Court </a></li>
+                                                    <li><a href="#" class="not-clickable">Family Dispute Resolution (FDR) </a></li>
+                                                    <li><a href="#" class="has-indent">Counselling &amp; Psychological Services</a></li>
+                                                    <li><a href="#" class="has-indent">Mediation &amp; FDR Registrar</a></li>
+
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-4 col-xl-2">
+                                    <div class="mega-menu-col">
+                                        <div class="mega-menu-list mb-3">
+                                            <a href="#" class="mega-menu-list-title">JSC</a>
+
+                                        </div>
+                                        <div class="mega-menu-title mb-3">
+                                            <span class="pb-2">ALA &amp; CACJ <br>
+                                                SECRETARIAT</span>
+                                        </div>
+                                        <div class="mega-menu-list mb-3">
+                                            <a href="#" class="mega-menu-list-title">ALA &amp; CACJ Secretariat</a>
+
+                                        </div>
+                                        <div class="mega-menu-title mb-3">
+                                            <span class="pb-2">JUDICIAL RECREATION <br>
+                                                CLUB</span>
+                                        </div>
+                                        <div class="mega-menu-list mb-3">
+                                            <a href="#" class="mega-menu-list-title">JRC</a>
+
+                                        </div>
+                                        <div class="mega-menu-title mb-3">
+                                            <span class="pb-2">SINGAPORE JUDICIAL <br>
+                                                COLLEGE</span>
+                                        </div>
+                                        <div class="mega-menu-list mb-3">
+                                            <a href="#" class="mega-menu-list-title">SJC</a>
+
+                                        </div>
+                                        <div class="mega-menu-list mb-3">
+                                            <a href="#" class="mega-menu-list-title">Learning Judge Portal</a>
+
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+                                </div>
+                                <div class="col-12 d-block d-xl-none mt-4">
+                                    <div class="mega-menu-col col-2">
+                                        <div class="mega-menu-title">
+                                            <span>JUDICIAL <br>
+                                                ADMINISTRATION</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-xl-2">
+                                    <div class="mega-menu-col">
+                                        <div class="mega-menu-list">
+                                            <a href="#" class="mega-menu-list-title">Access to Justice</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="mega-menu-col">
+                                        <div class="mega-menu-list">
+                                            <a href="#" class="mega-menu-list-title">Communications and Service
+                                                Excellence</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Communications</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Outreach &amp; Engagement </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> Service Excellence</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> Enterprise Risk Management</a>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="mega-menu-col">
+                                        <div class="mega-menu-list">
+                                            <a href="#" class="mega-menu-list-title">Corporate Services</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">HR Management</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> HR Development</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> Security</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> Records Management &amp;
+                                                        Admin</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> Business Continuity Management</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="mega-menu-col mb-0">
+                                        <div class="mega-menu-list">
+                                            <a href="#" class="mega-menu-list-title">Finance &amp; Procurement</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Resource Management &amp; Procurement</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> Revenue Management &amp; Reporting</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-xl-2">
+
+                                    <div class="mega-menu-col">
+                                        <div class="mega-menu-list">
+                                            <a href="#" class="mega-menu-list-title">Infrastructure &amp; Court
+                                                Resources</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Building Infrastructure</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Court Infrastructure</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> Language Resources</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> Building Project Management</a>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="mega-menu-col">
+                                        <div class="mega-menu-list">
+                                            <a href="#" class="mega-menu-list-title"> Innovation, Technology &amp;
+                                                Transformation
+                                                (ITX)</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Office of Transformation &amp; Innovation</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> Information Technology Department</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> CISO</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="mega-menu-col">
+                                        <div class="mega-menu-list">
+                                            <a href="#" class="mega-menu-list-title">Internal Audit</a>
+
+
+                                        </div>
+                                    </div>
+                                    <div class="mega-menu-col">
+                                        <div class="mega-menu-list">
+                                            <a href="#" class="mega-menu-list-title">International Relations</a>
+
+
+                                        </div>
+                                    </div>
+                                    <div class="mega-menu-col">
+                                        <div class="mega-menu-list">
+                                            <a href="#" class="mega-menu-list-title">Judicial Policy</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Strategic Planning &amp; Policy </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> Legal Advisory</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="mega-menu-col mb-0">
+                                        <div class="mega-menu-list">
+                                            <a href="#" class="mega-menu-list-title">Knowledge Management</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid main-menu">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="../../test.resonance.com.sg/sgci/images/logo.png" alt="" class="img-fluid">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">People Matters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="resources.html">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">News &amp; Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Collaboration Space</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Job Openings</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+
+
+        <section>
+            <div class="container-fluid bg-navy-blue">
+                <div class="container">
+                    <div class="accordion accordion-flush accordion-content pt-0">
+                        <div class="accordion-item is-dark-turq">
+
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <div class="vision-value">
+                                    <div class="home-vision">
+                                        <p>VISION: A trusted Judiciary </p>
+                                        <div class="circle"></div>
+                                        <p>Ready for Tomorrow </p>
+                                    </div>
+                                    <div class="home-value">
+                                        <p>VALUES:</p>
+                                        <p><span>F</span>airness</p>
+                                        <p><span>A</span>ccessibility</p>
+                                        <p><span>I</span>ntegrity</p>
+                                        <p><span>R</span>espect</p>
+                                    </div>
+                                </div>
+
+                            </button>
+
+                            <div id="flush-collapseOne" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="home-value">
+                                        <p>VALUES:</p>
+                                        <div class="home-value-con">
+                                            <div class="home-value-item">
+                                                <p><span>F</span>airness</p>
+                                                <p>We treat everyone and every case with fairness</p>
+                                            </div>
+                                            <div class="home-value-item">
+                                                <p><span>A</span>ccessibility</p>
+                                                <p>We enhance access to justice</p>
+                                            </div>
+                                            <div class="home-value-item">
+                                                <p><span>I</span>ntegrity</p>
+                                                <p>We did the right thing, without fear or favour, affection or ill-will
+                                                </p>
+                                            </div>
+                                            <div class="home-value-item">
+                                                <p><span>R</span>espect</p>
+                                                <p>We treat everyone with respect and dignity</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="wp-masthead">
+                        <a class="masthead-item" style="background-image: url(../../test.resonance.com.sg/sgci/images/masthead-images/mast-bg-1.png);">
+                            <div class="mast-text">
+                                <div class="overlay">
+                                </div>
+                                <p>CJ Connects</p>
+                            </div>
+                        </a>
+                        <a class="masthead-item" style="background-image: url(../../test.resonance.com.sg/sgci/images/masthead-images/mast-bg-2.png);">
+                            <div class="mast-text">
+                                <div class="overlay">
+                                </div>
+                                <p>Congratulations to Judicial Officers...</p>
+                            </div>
+                        </a>
+                        <a class="masthead-item" style="background-image: url(../../test.resonance.com.sg/sgci/images/masthead-images/mast-bg-3.png);">
+                            <div class="mast-text">
+                                <div class="overlay">
+                                </div>
+                                <p>Mass Call 2024</p>
+                            </div>
+
+                        </a>
+                        <a class="masthead-item" style="background-image: url(../../test.resonance.com.sg/sgci/images/masthead-images/mast-bg-4.png);">
+                            <div class="mast-text">
+
+                                <p>Lunch Time Fun</p>
+                                <div class="overlay">
+                                </div>
+                            </div>
+                        </a>
+                        <a class="masthead-item bg-maroon no-bg-img">
+                            <p>Pair Search - Try a more powerful search experience for Supreme Court Judgments - May
+                                2024</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <section>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="bg-l-grey is-curved">
+                        <div class="home-section-title">
+                            <h2>My Shortcuts</h2>
+                        </div>
+                        <div class="shortcut-container">
+                            <a class="wp-shortcut-item">
+                                HRP
+                            </a>
+                            <a class="wp-shortcut-item">
+                                LJP
+                            </a>
+                            <a class="wp-shortcut-item">
+                                Procurement eInvoice Portal
+                            </a>
+                            <a class="wp-shortcut-item">
+                                eLit
+                            </a>
+                            <a class="wp-shortcut-item">
+                                eFile Cabinet
+                            </a>
+                            <a class="wp-shortcut-item">
+                                Resource Booking
+                            </a>
+                            <a class="wp-shortcut-item">
+                                Courtroom / Chamber Capacity
+                            </a>
+                            <a class="wp-shortcut-item">
+                                WOJ Glossary
+                            </a>
+                            <a class="wp-shortcut-item">
+                                Courtroom Chamber / Facilities
+                            </a>
+                            <a class="wp-shortcut-item">
+                                Judgments
+                            </a>
+                            <a class="wp-shortcut-item">
+                                Training Portal (CA)
+                            </a>
+                            <a href="" class="plus-button">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="accordion accordion-flush accordion-content pt-0">
+                        <div class="accordion-item title-accordion">
+
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFiles" aria-expanded="false" aria-controls="flush-collapseFiles">
+                                My Recent Files and Documents
+                            </button>
+
+                            <div id="flush-collapseFiles" class="accordion-collapse collapse">
+                                <div class="accordion-body ">
+                                    <div class="dataTable-main">
+
+                                        <div class="entries">
+                                            <span>Show
+                                                <div class="dropdown d-inline-block">
+                                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="entriesDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        5
+                                                    </button>
+                                                    <ul class="dropdown-menu" aria-labelledby="entriesDropdown">
+                                                        <li><a class="dropdown-item" href="#">10</a></li>
+                                                        <li><a class="dropdown-item" href="#">20</a></li>
+                                                        <li><a class="dropdown-item" href="#">30</a></li>
+                                                        <li><a class="dropdown-item" href="#">40</a></li>
+                                                        <li><a class="dropdown-item" href="#">50</a></li>
+                                                    </ul>
+                                                </div>
+                                                Entries
+                                            </span>
+                                        </div>
+                                        <div class="listing-data">
+                                            <table class="latest-files-table">
+                                                <thead class="align-top">
+                                                    <tr>
+                                                        <th>
+                                                            <div class="tableHead">
+                                                                <div class=" dropdown">
+                                                                    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                        <span> NAME</span>
+                                                                    </button>
+                                                                    <div class="dropdown-menu">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked="">
+                                                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                                                Ascending
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                                                            <label class="form-check-label" for="flexRadioDefault2">
+                                                                                Descending
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </th>
+                                                        <th>
+                                                            <div class="tableHead">
+                                                                <div class=" dropdown">
+                                                                    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                        <span> CATEGORY</span>
+                                                                    </button>
+                                                                    <div class="dropdown-menu">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheck1">
+                                                                            <label class="form-check-label" for="flexCheck1">
+                                                                                All
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheck2">
+                                                                            <label class="form-check-label" for="flexCheck2">
+                                                                                Court Management Resources
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheck3">
+                                                                            <label class="form-check-label" for="flexCheck3">
+                                                                                Judicial Resources
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheck4">
+                                                                            <label class="form-check-label" for="flexCheck4">
+                                                                                Office Administration
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </th>
+                                                        <th style="width: 50px !important;"> </th>
+                                                        <th>
+                                                            <div class="tableHead">
+                                                                <div class=" dropdown">
+                                                                    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                        <span> CONTENT TYPE</span>
+                                                                    </button>
+                                                                    <div class="dropdown-menu">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheck11">
+                                                                            <label class="form-check-label" for="flexCheck11">
+                                                                                All
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheck21">
+                                                                            <label class="form-check-label" for="flexCheck21">
+                                                                                Court Roster and Calendar
+
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheck31">
+                                                                            <label class="form-check-label" for="flexCheck31">
+                                                                                Court Programmes and Initiatives
+
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheck41">
+                                                                            <label class="form-check-label" for="flexCheck41">
+                                                                                Bench Guides
+
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheck51">
+                                                                            <label class="form-check-label" for="flexCheck51">
+                                                                                Human Resources
+
+                                                                            </label>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                        
+                                        </th>
+                                        <th>
+                                            <div class="tableHead">
+                                                <div class=" dropdown">
+                                                    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <span> MODIFIED BY</span>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio" name="flexRadio1" id="flexRadioDefault11" checked="">
+                                                            <label class="form-check-label" for="flexRadioDefault11">
+                                                                Ascending
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio" name="flexRadio1" id="flexRadioDefault21">
+                                                            <label class="form-check-label" for="flexRadioDefault21">
+                                                                Descending
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </th>
+
+                                        <th>
+                                            <div class="tableHead">
+                                                <div class=" dropdown">
+                                                    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <span> MODIFIED DATE</span>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio" name="flexRadio11" id="flexRadioDefault111" checked="">
+                                                            <label class="form-check-label" for="flexRadioDefault111">
+                                                                Ascending
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio" name="flexRadio11" id="flexRadioDefault21">
+                                                            <label class="form-check-label" for="flexRadioDefault211">
+                                                                Descending
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </th>
+                                        </tr>
+                                        </thead>
+                                        <tbody class="align-top">
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-start">
+                                                        <div class="pdf-file">
+                                                            <i class="fa-regular fa-file-pdf"></i>
+                                                            <a href="#">This_Week.pdf</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <p> Court Management Resources</p>
+                                                </td>
+                                                <td>
+                                                    <i class="fa-solid fa-ellipsis"></i>
+                                                </td>
+                                                <td>
+                                                    <p>Court Roster and Calendar
+                                                    </p>
+                                                </td>
+                                                <td>
+                                                    <p>David Tan</p>
+                                                </td>
+
+                                                <td>
+                                                    <p>
+                                                        13 / 08 / 28
+                                                    </p>
+
+                                                </td>
+                                            </tr>
+
+
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-start">
+                                                        <div class="pdf-file">
+                                                            <i class="fa-regular fa-file-pdf"></i>
+                                                            <a href="#">Next Week.pdf</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <p> Court Management Resources</p>
+                                                </td>
+                                                <td>
+                                                    <i class="fa-solid fa-ellipsis"></i>
+                                                </td>
+                                                <td>
+                                                    <p>Court Roster and Calendar
+                                                    </p>
+                                                </td>
+                                                <td>
+                                                    <p>David Tan</p>
+                                                </td>
+
+                                                <td>
+                                                    <p>
+                                                        13 / 08 / 28
+                                                    </p>
+
+                                                </td>
+                                            </tr>
+
+
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-start">
+                                                        <div class="pdf-file">
+                                                            <i class="fa-regular fa-file-pdf"></i>
+                                                            <a href="#">Duty Senior Judges and Judicial
+                                                                Commissioners</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <p>Court Management Resources</p>
+                                                </td>
+                                                <td>
+                                                    <i class="fa-solid fa-ellipsis"></i>
+                                                </td>
+                                                <td>
+                                                    <p>Court Programmes and Initiatives
+
+                                                    </p>
+                                                </td>
+                                                <td>
+                                                    <p>David Tan</p>
+                                                </td>
+
+                                                <td>
+                                                    <p>
+                                                        13 / 08 / 28
+                                                    </p>
+
+                                                </td>
+                                            </tr>
+
+
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-start">
+                                                        <div class="pdf-file">
+                                                            <i class="fa-regular fa-file-pdf"></i>
+                                                            <a href="#">Bench Guide Template
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <p>Judicial Resources </p>
+                                                </td>
+                                                <td>
+                                                    <i class="fa-solid fa-ellipsis"></i>
+                                                </td>
+                                                <td>
+                                                    <p>Bench Guides
+                                                    </p>
+                                                </td>
+                                                <td>
+                                                    <p>May Lee</p>
+                                                </td>
+
+                                                <td>
+                                                    <p>
+                                                        13 / 08 / 28
+                                                    </p>
+
+                                                </td>
+                                            </tr>
+
+
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-start">
+                                                        <div class="pdf-file">
+                                                            <i class="fa-regular fa-file-pdf"></i>
+                                                            <a href="#">Staff Claims Procedure
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <p>Office Administration
+
+                                                    </p>
+                                                </td>
+                                                <td>
+                                                    <i class="fa-solid fa-ellipsis"></i>
+                                                </td>
+                                                <td>
+                                                    <p>Human Resources</p>
+                                                </td>
+                                                <td>
+                                                    <p>Desmond Tay</p>
+                                                </td>
+
+                                                <td>
+                                                    <p>
+                                                        13 / 08 / 28
+                                                    </p>
+
+
+                                                </td>
+                                            </tr>
+
+
+                                        </tbody>
+                                        </table>
+
+                                        <div class="indecate margin-top-20">
+                                            <div class="pagination-row">
+                                                        
+                                                <div class="entries-and-total">
+                                                    <div class="entries">
+                                                        <span>Show
+                                                            <div class="dropdown d-inline-block">
+                                                                <button class="btn btn-secondary dropdown-toggle" type="button" id="entriesDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                    5
+                                                                </button>
+                                                                <ul class="dropdown-menu" aria-labelledby="entriesDropdown">
+                                                                    <li><a class="dropdown-item" href="#">10</a></li>
+                                                                    <li><a class="dropdown-item" href="#">20</a></li>
+                                                                    <li><a class="dropdown-item" href="#">30</a></li>
+                                                                    <li><a class="dropdown-item" href="#">40</a></li>
+                                                                    <li><a class="dropdown-item" href="#">50</a></li>
+                                                                </ul>
+                                                            </div>
+                                                                Entries
+                                                        </span>
+                                                    </div>
+                                                    <p>
+                                                        1-5 of 50 items
+                                                    </p>
+                                                </div>
+                                                <div class="c-pagination">
+                                                    <button>
+                                                        <i class="fa-solid fa-angle-left"></i>
+                                                    </button>
+                                                    <span class="active">1</span>
+                                                    <span>2</span>
+                                                    <span>3</span>
+                                                    <button>
+                                                        <i class="fa-solid fa-angle-right"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div></section>
+
+        <section>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="bg-l-grey is-curved">
+                        <div class="home-section-title">
+                            <h2>Stay Up to Date</h2>
+                            <a class="text-link-view-all">View All</a>
+                        </div>
+                        <div class="home-news row">
+                            <div class="col-6">
+                                <a class="home-news-item">
+                                    <div class="home-news-category is-news-announcement">
+                                        <p>Announcement</p>
+                                    </div>
+                                    <div class="home-news-details">
+                                        <p class="date">23 Aug 2024</p>
+                                        <h5 class="title">Draft of new Family Justice Courts Practice Directions</h5>
+                                        <p class="subtext">Draft of new Family Justice Courts Practice Directions.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a class="home-news-item">
+                                    <div class="home-news-category is-news-media-release">
+                                        <p>MEDIA RELEASE</p>
+                                    </div>
+                                    <div class="home-news-details">
+                                        <p class="date">23 Aug 2024</p>
+                                        <h5 class="title">Media Release: Singapore and India strengthen bilateral ties at
+                                            second annual India-Singapore Judicial Roundtable</h5>
+                                        <p class="subtext">Singapore and India strengthen bilateral ties at second annual
+                                            India-Singapore Judicial Roundtable held on 23 August 2024.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a class="home-news-item">
+                                    <div class="home-news-category is-news-speech">
+                                        <p>SPEECH</p>
+                                    </div>
+                                    <div class="home-news-details">
+                                        <p class="date">19 Aug 24</p>
+                                        <h5 class="title">Chief Justice Sundaresh Menon: Speech delivered at Mass Call 2024
+                                        </h5>
+                                        <p class="subtext">Speech delivered by Chief Justice Sundaresh Menon at Mass Call
+                                            2024.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a class="home-news-item">
+                                    <div class="home-news-category is-news-advisory">
+                                        <p>ADVISORY</p>
+                                    </div>
+                                    <div class="home-news-details">
+                                        <p class="date">12 Aug 24</p>
+                                        <h5 class="title">Advisory on Phone Scam Involving Court-Directed Process</h5>
+                                        <p class="subtext">The Singapore Courts would like to warn members of the public
+                                            about a recent spate of scam calls.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="bg-l-grey is-curved">
+                        <div class="home-section-title">
+                            <h2>Important Dates, Deadlines and Events</h2>
+                            <a class="text-link-view-all">View All</a>
+                        </div>
+                        <div class="home-calendar-filter">
+                            <div class="category-filter">
+                                <div class="category-row">
+                                    <div class="category-filter-item">
+                                        <div class="category-circle is-cal-events"></div>
+                                        Events
+                                    </div>
+                                    <div class="category-filter-item">
+                                        <div class="category-circle is-cal-important-dates"></div>
+                                        Important Dates
+                                    </div>
+                                    <div class="category-filter-item">
+                                        <div class="category-circle is-cal-deadlines"></div>
+                                        Deadlines
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="division-filter">
+                                <button class="division-filter-item my-div" type="button" data-bs-toggle="collapse" data-bs-target=".my-div-cal-content" aria-expanded="true" aria-controls=".my-div-cal-content">My Division</button>
+                                <button class="division-filter-item sg-courts collapsed" type="button" data-bs-toggle="collapse" data-bs-target=".sg-courts-cal-content" aria-expanded="false" aria-controls=".sg-courts-cal-content">SG Courts</button>
+                            </div>
+                        </div>
+                        <div id="hcListView">
+                            <div class="my-div-cal-content collapse show" data-bs-parent="#hcListView">
+                                <div class="row home-calendar-list-view">
+                                    <div class="col-3">
+                                        <div class="list-view-item">
+                                            <div class="date is-cal-events">
+                                                <p class="month">Sep</p>
+                                                <p class="day">4</p>
+                                            </div>
+                                            <div class="details">
+                                                <h5>Bring Your Kids to Work Day</h5>
+                                                <p class="time">12:00 PM - 02:00 PM
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="list-view-item">
+                                            <div class="date is-cal-events">
+                                                <p class="month">Sep</p>
+                                                <p class="day">15</p>
+                                            </div>
+                                            <div class="details">
+                                                <h5>My Division Event</h5>
+                                                <p class="time">12:00 PM - 02:00 PM
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="list-view-item">
+                                            <div class="date is-cal-events">
+                                                <p class="month">Nov</p>
+                                                <p class="day">6</p>
+                                            </div>
+                                            <div class="details">
+                                                <h5>Deepavali Celebration</h5>
+                                                <p class="time">12:00 PM - 02:00 PM
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="list-view-item">
+                                            <div class="date is-cal-important-dates">
+                                                <p class="month">Nov</p>
+                                                <p class="day">11</p>
+                                            </div>
+                                            <div class="details">
+                                                <h5>Conference for CAs</h5>
+                                                <p class="time">12:00 PM - 02:00 PM
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sg-courts-cal-content collapse" data-bs-parent="#hcListView">
+                                <div class="row home-calendar-list-view">
+                                    <div class="col-3">
+                                        <div class="list-view-item">
+                                            <div class="date is-cal-events">
+                                                <p class="month">Sep</p>
+                                                <p class="day">4</p>
+                                            </div>
+                                            <div class="details">
+                                                <h5>Bring Your Kids to Work Day</h5>
+                                                <p class="time">12:00 PM - 02:00 PM
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="list-view-item">
+                                            <div class="date is-cal-events">
+                                                <p class="month">Nov</p>
+                                                <p class="day">6</p>
+                                            </div>
+                                            <div class="details">
+                                                <h5>Deepavali Celebration</h5>
+                                                <p class="time">12:00 PM - 02:00 PM
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="list-view-item">
+                                            <div class="date is-cal-important-dates">
+                                                <p class="month">Nov</p>
+                                                <p class="day">11</p>
+                                            </div>
+                                            <div class="details">
+                                                <h5>Conference for CAs</h5>
+                                                <p class="time">12:00 PM - 02:00 PM
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="list-view-item">
+                                            <div class="date is-cal-deadlines">
+                                                <p class="month">Nov</p>
+                                                <p class="day">15</p>
+                                            </div>
+                                            <div class="details">
+                                                <h5>SG Courts Deadline</h5>
+                                                <p class="time">12:00 PM - 02:00 PM
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button-right">
+                            <button class="red-button view-cal-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#hcCalView" aria-expanded="false" aria-controls="hcCalView">
+                                <p class="view-cal">View Calendar</p>
+                                <p class="close-cal">Close Calendar</p>
+                            </button>
+                        </div>
+                        <div id="hcCalView" class="collapse">
+                            <div class="my-div-cal-content home-calendar-cal-view collapse show" data-bs-parent="#hcCalView">
+                                <div class="month-button">
+                                    <button class="month-button-left"><i class="fa-solid fa-chevron-left"></i></button>
+                                    <button class="month-button-right"><i class="fa-solid fa-chevron-right"></i></button>
+                                    <p>September 2024</p>
+                                </div>
+                                <div class="cal-table-con">
+                                    <table class="calendar-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Sunday</th>
+                                                <th>Monday</th>
+                                                <th>Tuesday</th>
+                                                <th>Wednesday</th>
+                                                <th>Thursday</th>
+                                                <th>Friday</th>
+                                                <th>Saturday</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <p class="day">01</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">02</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">03</p>
+    
+                                                </td>
+                                                <td>
+                                                    <p class="day">04</p>
+                                                    <div class="cal-item is-cal-events">
+                                                        <p class="name">Bring Your Kids to Work Day</p>
+                                                        <p class="time">12:00 PM - 02:00 PM</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <p class="day">05</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">06</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">07</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class="day">08</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">09</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">10</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">11</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">12</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">13</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">14</p>
+                                                </td>
+    
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class="day">15</p>
+                                                    <div class="cal-item is-cal-events">
+                                                        <p class="name">My Division Event</p>
+                                                        <p class="time">12:00 PM - 02:00 PM</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <p class="day">16</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">17</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">18</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">19</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">20</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">21</p>
+                                                </td>
+    
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class="day">22</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">23</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">24</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">25</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">26</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">27</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">28</p>
+                                                </td>
+    
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class="day">29</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">30</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day is-next-month">01</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day is-next-month">02</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day is-next-month">03</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day is-next-month">04</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day is-next-month">05</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+    
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="sg-courts-cal-content home-calendar-cal-view collapse" data-bs-parent="#hcCalView">
+                                <div class="month-button">
+                                    <button class="month-button-left"><i class="fa-solid fa-chevron-left"></i></button>
+                                    <button class="month-button-right"><i class="fa-solid fa-chevron-right"></i></button>
+                                    <p>September 2024</p>
+                                </div>
+                                <div class="cal-table-con">
+                                    <table class="calendar-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Sunday</th>
+                                                <th>Monday</th>
+                                                <th>Tuesday</th>
+                                                <th>Wednesday</th>
+                                                <th>Thursday</th>
+                                                <th>Friday</th>
+                                                <th>Saturday</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <p class="day">01</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">02</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">03</p>
+    
+                                                </td>
+                                                <td>
+                                                    <p class="day">04</p>
+                                                    <div class="cal-item is-cal-events">
+                                                        <p class="name">Bring Your Kids to Work Day</p>
+                                                        <p class="time">12:00 PM - 02:00 PM</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <p class="day">05</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">06</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">07</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class="day">08</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">09</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">10</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">11</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">12</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">13</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">14</p>
+                                                </td>
+    
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class="day">15</p>
+    
+                                                </td>
+                                                <td>
+                                                    <p class="day">16</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">17</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">18</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">19</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">20</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">21</p>
+                                                </td>
+    
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class="day">22</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">23</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">24</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">25</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">26</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">27</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">28</p>
+                                                </td>
+    
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class="day">29</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day">30</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day is-next-month">01</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day is-next-month">02</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day is-next-month">03</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day is-next-month">04</p>
+                                                </td>
+                                                <td>
+                                                    <p class="day is-next-month">05</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+    
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid">
+                <div class="container">
+                    <div id="divAccMain" class="accordion accordion-flush accordion-content pt-0">
+
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="accordion-item title-accordion">
+
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseJS" aria-expanded="false" aria-controls="flush-collapseJS">
+                                        Judicial Services
+                                    </button>
+
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="accordion-item title-accordion">
+
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseJSC" aria-expanded="false" aria-controls="flush-collapseJSC">
+                                        Judicial Service Commission
+                                    </button>
+
+
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div id="flush-collapseJS" class="accordion-collapse collapse" data-bs-parent="#divAccMain">
+                                    <div class="detached-acc-content accordion-body ">
+                                        <div class="row ">
+
+
+                                            <div class="col-4">
+
+                                                <div class="filter">
+
+
+                                                    <div class="filter-section top-prio">
+
+                                                        <div class="filter-section-drop">
+                                                            <div class="accordion">
+                                                                <div class="accordion-item">
+                                                                    <a class=" accordion-button-link" data-pdf="files/org-chart/Supreme Court.pdf" type="button" data-bs-toggle="collapse" data-bs-target="#supremeCContent" aria-expanded="false" aria-controls="supremeCContent">
+                                                                        Supreme Court
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="filter-section-drop">
+                                                            <div class="accordion">
+                                                                <div class="accordion-item">
+                                                                    <a class=" collapsed accordion-button-link" type="button" data-bs-toggle="collapse" data-bs-target="#stateCContent" aria-expanded="false" aria-controls="stateCContent">
+                                                                        State Courts
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="filter-section-drop">
+                                                            <div class="accordion">
+                                                                <div class="accordion-item">
+                                                                    <a class=" collapsed accordion-button-link" type="button" data-bs-toggle="collapse" data-bs-target="#fjcContent" aria-expanded="false" aria-controls="fjcContent">
+                                                                        Family Justice Courts
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+
+                                                    </div>
+
+
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-8">
+                                                <div id="jsContent">
+                                                    <div id="supremeCContent" class="collapse show" data-bs-parent="#jsContent">
+                                                        <h3>Supreme Court</h3>
+                                                        <p>The Supreme Court is part of the court system in Singapore
+                                                            that upholds the law and ensures justice is accessible to
+                                                            all. It has judicial power to hear both criminal and civil
+                                                            matters.</p>
+                                                        <h4>Types of courts</h4>
+                                                        <p>The Supreme Court is made up of the following courts:</p>
+                                                        <ul>
+                                                            <li>Court of Appeal.</li>
+                                                            <li>
+                                                                High Court.
+                                                                <ul>
+                                                                    <li>Appellate Division of the High Court.</li>
+                                                                    <li>General Division of the High Court.
+
+                                                                        <ul>
+                                                                            <li>Singapore International Commercial Court
+                                                                                (SICC).</li>
+                                                                        </ul>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="button-container margin-top-20">
+                                                            <a href="" class="red-button">Learn More</a>
+                                                            <a href="" class="red-button">View Organisation Chart</a>
+                                                        </div>
+                                                    </div>
+                                                    <div id="stateCContent" class="collapse" data-bs-parent="#jsContent">
+                                                        <h3>State Courts</h3>
+                                                        <p>The State Courts are part of the court system in Singapore
+                                                            that upholds the law and ensures justice is accessible to
+                                                            all. It has judicial power to hear both criminal and civil
+                                                            matters.</p>
+                                                        <p>Each year, the State Courts handle more than 80 per cent of
+                                                            the overall caseload in Singapore and more than 90 per cent
+                                                            of the total criminal caseload.</p>
+                                                        <h4>Types of courts</h4>
+                                                        <p>The State Courts are made up of the following courts and
+                                                            tribunals:</p>
+                                                        <ul>
+                                                            <li>District Courts.</li>
+                                                            <li>Magistrates' Courts.</li>
+                                                            <li>Coroners' Courts.</li>
+                                                            <li>Small Claims Tribunals.</li>
+                                                            <li>Community Disputes Resolution Tribunals.</li>
+                                                            <li>Employment Claims Tribunals.</li>
+
+                                                        </ul>
+                                                        <div class="button-container margin-top-20">
+                                                            <a href="" class="red-button">Learn More</a>
+                                                            <a href="" class="red-button">View Organisation Chart</a>
+                                                        </div>
+                                                    </div>
+                                                    <div id="fjcContent" class="collapse" data-bs-parent="#jsContent">
+                                                        <h3>Family Justice Courts</h3>
+                                                        <p>The Family Justice Courts (FJC) are part of the court system
+                                                            in Singapore that upholds the law and ensures justice is
+                                                            accessible to all. It has judicial power to hear
+                                                            family-related cases that involve legal issues within the
+                                                            family, such as divorce, probate, maintenance and family
+                                                            violence, among other cases. The FJC also deals with the
+                                                            care and treatment of young persons.</p>
+                                                        <p>The FJC operates based on the principles of therapeutic
+                                                            justice. This is a multi-disciplinary approach that applies
+                                                            insights from psychology and social science research for
+                                                            more holistic outcomes.</p>
+                                                        <h4>Types of courts</h4>
+                                                        <p>The FJC is made up of the following courts:</p>
+                                                        <ul>
+                                                            <li>Family Courts.</li>
+                                                            <li>Youth Courts.</li>
+                                                            <li>Family Division of the High Court.</li>
+
+                                                        </ul>
+                                                        <div class="button-container margin-top-20">
+                                                            <a href="" class="red-button">Learn More</a>
+                                                            <a href="" class="red-button">View Organisation Chart</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="flush-collapseJSC" class="accordion-collapse collapse" data-bs-parent="#divAccMain">
+                                    <div class="detached-acc-content accordion-body">
+                                        <h3>Judicial Service Commission</h3>
+                                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
+                                            perspiciatis quis impedit rem a, dicta quam praesentium sunt! Eveniet,
+                                            dolorem. Vitae culpa voluptatibus a nisi aliquam autem, id architecto
+                                            voluptate.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="accordion-item title-accordion">
+
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseALC" aria-expanded="false" aria-controls="flush-collapseALC">
+                                        ALA &amp; CACJ Secretariat
+                                    </button>
+
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="accordion-item title-accordion">
+
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseJRC" aria-expanded="false" aria-controls="flush-collapseJRC">
+                                        Judiciary Recreation Club
+                                    </button>
+
+
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div id="flush-collapseALC" class="accordion-collapse collapse" data-bs-parent="#divAccMain">
+                                    <div class="detached-acc-content accordion-body">
+                                        <h3>ALA &amp; CACJ Secretariat</h3>
+                                        <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                                            aut hic eaque! Nostrum ipsam cum, ut excepturi omnis ex eligendi hic
+                                            ratione, itaque qui molestias. Iste ullam nulla nemo ratione? </p>
+                                    </div>
+                                </div>
+                                <div id="flush-collapseJRC" class="accordion-collapse collapse" data-bs-parent="#divAccMain">
+                                    <div class="detached-acc-content accordion-body">
+                                        <h3>Judiciary Recreation Club</h3>
+                                        <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                            Blanditiis aut recusandae, sint aliquid repellat doloribus numquam natus
+                                            illo laborum odio nam, tenetur, minus provident? Inventore exercitationem
+                                            ullam vero excepturi ipsa!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="accordion-item title-accordion">
+
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSJC" aria-expanded="false" aria-controls="flush-collapseSJC">
+                                        Singapore Judicial College
+                                    </button>
+
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="accordion-item title-accordion">
+
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseJA" aria-expanded="false" aria-controls="flush-collapseJA">
+                                        Judicial Administration
+                                    </button>
+
+
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div id="flush-collapseSJC" class="accordion-collapse collapse" data-bs-parent="#divAccMain">
+                                    <div class="detached-acc-content accordion-body">
+                                        <h3>Singapore Judicial College</h3>
+                                        <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Impedit, illum molestias. Distinctio iusto, laboriosam et odit deleniti
+                                            minus, ullam commodi voluptas, iste porro quia laudantium nesciunt deserunt
+                                            eius a molestiae.</p>
+                                    </div>
+                                </div>
+                                <div id="flush-collapseJA" class="accordion-collapse collapse" data-bs-parent="#divAccMain">
+                                    <div class="detached-acc-content accordion-body ">
+                                        <div class="row ">
+                                            <div class="col-4">
+                                                <div class="filter">
+                                                    <div class="filter-section top-prio">
+                                                        <div class="filter-section-drop">
+                                                            <div class="accordion">
+                                                                <div class="accordion-item">
+                                                                    <a class=" accordion-button-link" type="button" data-bs-toggle="collapse" data-bs-target="#ajContent" aria-expanded="false" aria-controls="ajContent">
+                                                                        Access to Justice
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="filter-section-drop">
+                                                            <div class="accordion">
+                                                                <div class="accordion-item">
+                                                                    <a class=" collapsed accordion-button-link" type="button" data-bs-toggle="collapse" data-bs-target="#cseContent" aria-expanded="false" aria-controls="cseContent">
+                                                                        Communications and Service Excellence
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="filter-section-drop">
+                                                            <div class="accordion">
+                                                                <div class="accordion-item">
+                                                                    <a class=" collapsed accordion-button-link" type="button" data-bs-toggle="collapse" data-bs-target="#csContent" aria-expanded="false" aria-controls="csContent">
+                                                                        Corporate Services
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="filter-section-drop">
+                                                            <div class="accordion">
+                                                                <div class="accordion-item">
+                                                                    <a class=" collapsed accordion-button-link" type="button" data-bs-toggle="collapse" data-bs-target="#fnpContent" aria-expanded="false" aria-controls="fnpContent">
+                                                                        Finance &amp; Procurement
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="filter-section-drop">
+                                                            <div class="accordion">
+                                                                <div class="accordion-item">
+                                                                    <a class=" collapsed accordion-button-link" type="button" data-bs-toggle="collapse" data-bs-target="#icrContent" aria-expanded="false" aria-controls="icrContent">
+                                                                        Infrastructure &amp; Court Resources
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="filter-section-drop">
+                                                            <div class="accordion">
+                                                                <div class="accordion-item">
+                                                                    <a class=" collapsed accordion-button-link" type="button" data-bs-toggle="collapse" data-bs-target="#itxContent" aria-expanded="false" aria-controls="itxContent">
+                                                                        Innovation, Technology &amp; Transformation (ITX)
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="filter-section-drop">
+                                                            <div class="accordion">
+                                                                <div class="accordion-item">
+                                                                    <a class=" collapsed accordion-button-link" type="button" data-bs-toggle="collapse" data-bs-target="#iaContent" aria-expanded="false" aria-controls="iaContent">
+                                                                        Internal Audit
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="filter-section-drop">
+                                                            <div class="accordion">
+                                                                <div class="accordion-item">
+                                                                    <a class=" collapsed accordion-button-link" type="button" data-bs-toggle="collapse" data-bs-target="#irContent" aria-expanded="false" aria-controls="irContent">
+                                                                        International Relations
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="filter-section-drop">
+                                                            <div class="accordion">
+                                                                <div class="accordion-item">
+                                                                    <a class=" collapsed accordion-button-link" type="button" data-bs-toggle="collapse" data-bs-target="#jpContent" aria-expanded="false" aria-controls="jpContent">
+                                                                        Judicial Policy
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="filter-section-drop">
+                                                            <div class="accordion">
+                                                                <div class="accordion-item">
+                                                                    <a class=" collapsed accordion-button-link" type="button" data-bs-toggle="collapse" data-bs-target="#kmContent" aria-expanded="false" aria-controls="kmContent">
+                                                                        Knowledge Management
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-8">
+                                                <div id="jaContentParent">
+                                                    <div id="ajContent" class="collapse show" data-bs-parent="#jaContentParent">
+                                                        <h3>Access to Justice</h3>
+                                                    </div>
+                                                    <div id="cseContent" class="collapse" data-bs-parent="#jaContentParent">
+                                                        <h3>Communications and Service Excellence</h3>
+                                                    </div>
+                                                    <div id="csContent" class="collapse" data-bs-parent="#jaContentParent">
+                                                        <h3>Corporate Services</h3>
+                                                    </div>
+                                                    <div id="fnpContent" class="collapse" data-bs-parent="#jaContentParent">
+                                                        <h3>Finance &amp; Procurement</h3>
+                                                    </div>
+                                                    <div id="icrContent" class="collapse" data-bs-parent="#jaContentParent">
+                                                        <h3>Infrastructure &amp; Court Resources</h3>
+                                                    </div>
+                                                    <div id="itxContent" class="collapse" data-bs-parent="#jaContentParent">
+                                                        <h3>Innovation, Technology &amp; Transformation (ITX)</h3>
+                                                    </div>
+                                                    <div id="iaContent" class="collapse" data-bs-parent="#jaContentParent">
+                                                        <h3>Internal Audit</h3>
+                                                    </div>
+                                                    <div id="irContent" class="collapse" data-bs-parent="#jaContentParent">
+                                                        <h3>International Relations</h3>
+                                                    </div>
+                                                    <div id="jpContent" class="collapse" data-bs-parent="#jaContentParent">
+                                                        <h3>Judicial Policy</h3>
+                                                    </div>
+                                                    <div id="kmContent" class="collapse" data-bs-parent="#jaContentParent">
+                                                        <h3>Knowledge Management</h3>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="bg-l-grey is-curved">
+                        <div class="home-section-title">
+                            <h2>Useful Contact List</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <table class="contacts-table">
+                                    <tbody>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Contact Number</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Security Control</td>
+                                            <td> 6332 4300</td>
+                                        </tr>
+                                        <tr>
+                                            <td>IT Helpdesk</td>
+                                            <td>6028 9453</td>
+                                        </tr>
+                                        <tr>
+                                            <td>BizVoice Helpdesk</td>
+                                            <td>1800 838 3347</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Library</td>
+                                            <td>6332 4094</td>
+                                        </tr>
+                                        <tr>
+                                            <td>General Maintenance</td>
+                                            <td>6332 4295</td>
+                                        </tr>
+                                        <tr>
+                                            <td>General Despatch</td>
+                                            <td> 6332 4251</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-6">
+                                <table class="contacts-table">
+                                    <tbody>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Contact Number</th>
+                                        </tr>
+                                        <tr>
+                                            <td>L1 Information Counter</td>
+                                            <td>6557 7549</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Facilities Setup</td>
+                                            <td>6557 7511</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Supreme Court &amp; Family Justice Courts SIRO (Security Incident Reporting
+                                                Officer): Mohamed Niyaz</td>
+                                            <td>6332 4296</td>
+                                        </tr>
+                                        <tr>
+                                            <td>State Courts SIRO (Security Incident Reporting Officer): Arista Wirawan</td>
+                                            <td>9066 0719</td>
+                                        </tr>
+    
+                                    </tbody>
+                                </table>
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="bg-turq is-curved">
+                        <div class="tab-controls">
+                            <button class="tab-control-item" type="button" data-bs-toggle="collapse" data-bs-target="#tabContent1" aria-expanded="true" aria-controls="#tabContent1">Welcome
+                                Onboard
+                            </button>
+                            <button class="tab-control-item collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tabContent2" aria-expanded="false" aria-controls="#tabContent2">Thank You
+                                and Farewell</button>
+                            <button class="tab-control-item collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tabContent3" aria-expanded="false" aria-controls="#tabContent3">Congratulations</button>
+                            <div class="tab-line"></div>
+                        </div>
+                        <div id="tabParent">
+                            <div id="tabContent1" class="tab-content collapse show" data-bs-parent="#tabParent">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="staff-item">
+                                            <img src="../../test.resonance.com.sg/sgci/images/staff/staff1.png" alt="">
+                                            <div class="staff-details">
+                                                <h5>Miss Felicia Tan</h5>
+                                                <p>Assistant Manager</p>
+                                                <p>Supreme Court</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="staff-item">
+                                            <img src="../../test.resonance.com.sg/sgci/images/staff/staff1.png" alt="">
+                                            <div class="staff-details">
+                                                <h5>Miss Felicia Tan</h5>
+                                                <p>Assistant Manager</p>
+                                                <p>Supreme Court</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="staff-item">
+                                            <img src="../../test.resonance.com.sg/sgci/images/staff/staff1.png" alt="">
+                                            <div class="staff-details">
+                                                <h5>Miss Felicia Tan</h5>
+                                                <p>Assistant Manager</p>
+                                                <p>Supreme Court</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="staff-item">
+                                            <img src="../../test.resonance.com.sg/sgci/images/staff/staff1.png" alt="">
+                                            <div class="staff-details">
+                                                <h5>Miss Felicia Tan</h5>
+                                                <p>Assistant Manager</p>
+                                                <p>Supreme Court</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tabContent2" class="tab-content collapse" data-bs-parent="#tabParent">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="staff-item">
+                                            <img src="../../test.resonance.com.sg/sgci/images/staff/staff2.png" alt="">
+                                            <div class="staff-details">
+                                                <h5>Miss Felicia Tan</h5>
+                                                <p>Assistant Manager</p>
+                                                <p>Supreme Court</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="staff-item">
+                                            <img src="../../test.resonance.com.sg/sgci/images/staff/staff1.png" alt="">
+                                            <div class="staff-details">
+                                                <h5>Miss Felicia Tan</h5>
+                                                <p>Assistant Manager</p>
+                                                <p>Supreme Court</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="staff-item">
+                                            <img src="../../test.resonance.com.sg/sgci/images/staff/staff1.png" alt="">
+                                            <div class="staff-details">
+                                                <h5>Miss Felicia Tan</h5>
+                                                <p>Assistant Manager</p>
+                                                <p>Supreme Court</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="staff-item">
+                                            <img src="../../test.resonance.com.sg/sgci/images/staff/staff1.png" alt="">
+                                            <div class="staff-details">
+                                                <h5>Miss Felicia Tan</h5>
+                                                <p>Assistant Manager</p>
+                                                <p>Supreme Court</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tabContent3" class="tab-content collapse" data-bs-parent="#tabParent">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="staff-item">
+                                            <img src="../../test.resonance.com.sg/sgci/images/staff/staff3.png" alt="">
+                                            <div class="staff-details">
+                                                <h5>Miss Felicia Tan</h5>
+                                                <p>Assistant Manager</p>
+                                                <p>Supreme Court</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="staff-item">
+                                            <img src="../../test.resonance.com.sg/sgci/images/staff/staff1.png" alt="">
+                                            <div class="staff-details">
+                                                <h5>Miss Felicia Tan</h5>
+                                                <p>Assistant Manager</p>
+                                                <p>Supreme Court</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="staff-item">
+                                            <img src="../../test.resonance.com.sg/sgci/images/staff/staff1.png" alt="">
+                                            <div class="staff-details">
+                                                <h5>Miss Felicia Tan</h5>
+                                                <p>Assistant Manager</p>
+                                                <p>Supreme Court</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="staff-item">
+                                            <img src="../../test.resonance.com.sg/sgci/images/staff/staff1.png" alt="">
+                                            <div class="staff-details">
+                                                <h5>Miss Felicia Tan</h5>
+                                                <p>Assistant Manager</p>
+                                                <p>Supreme Court</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+
+        <div class="container-fuild">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-3">
+                        <div class="footer-menu">
+                            <span class="footer-title">
+                                JUDICIAL SERVICES
+                            </span>
+                            <div class="footer-menu-list">
+                                <ul>
+                                    <li>
+                                        <a href="#">Supreme Court</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Family Justice Courts</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">State Courts</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-menu">
+                            <span class="footer-title">
+                                JUDICIAL ADMINISTRATION
+                            </span>
+                            <div class="footer-menu-list">
+                                <ul>
+                                    <li>
+                                        <a href="#">Access to Justice</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Communications and Service Excellence </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Corporate Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Finance &amp; Procurement</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Infrastructure &amp; Court Resources</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Innovation, Technology &amp; Transformation (ITX)</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Internal Audit</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">International Relations</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Judicial Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Knowledge Management</a>
+                                    </li>
+
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="footer-menu">
+                            <span class="footer-title">
+                                JUDICIAL SERVICE COMMISSION
+                            </span>
+                            <div class="footer-menu-list">
+                                <ul>
+                                    <li><a href="#">JSC</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-menu">
+                            <span class="footer-title">
+                                ALA &amp; CACJ SECRETARIAT
+                            </span>
+                            <div class="footer-menu-list">
+                                <ul>
+                                    <li><a href="#">ALA &amp; CACJ Secretariat</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-menu">
+                            <span class="footer-title">
+                                JUDICIAL RECREATION CLUB
+                            </span>
+                            <div class="footer-menu-list">
+                                <ul>
+                                    <li><a href="#">JRC</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="footer-menu">
+                            <span class="footer-title">
+                                SINGAPORE JUDICIAL
+                                COLLEGE
+                            </span>
+                            <div class="footer-menu-list">
+                                <ul>
+                                    <li><a href="#">SJC</a></li>
+                                    <li><a href="#">Learning Judge Portal</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-3">
+                        <div class="footer-menu">
+                            <span class="footer-title">
+                                PEOPLE MATTERS
+                            </span>
+
+                        </div>
+                        <div class="footer-menu">
+                            <span class="footer-title">
+                                RESOURCES
+                            </span>
+
+
+                        </div>
+                        <div class="footer-menu">
+
+                            <span class="footer-title">
+                                NEWS &amp; EVENTS
+                            </span>
+
+
+                        </div>
+                        <div class="footer-menu">
+
+                            <span class="footer-title">
+                                COLLABORATION SPACE
+                            </span>
+
+                        </div>
+                        <div class="footer-menu">
+
+                            <span class="footer-title">
+                                JOB OPENINGS
+                            </span>
+
+                        </div>
+
+                    </div>
+                    <div class="col-3 position-relative pb-5">
+                        <div class="footer-headline">
+                            <h1>
+                                FEEDBACK <br>PORTAL
+                            </h1>
+                        </div>
+                        <a href="" class="red-button">SHARE YOUR IDEAS</a>
+                        <div class="footer-bg">
+                            <img src="../../test.resonance.com.sg/sgci/images/footer-bg.png" alt="" class="img-fliud">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+
+    <script src="../../test.resonance.com.sg/sgci/js/popper.js"></script>
+
+    <!--Bootstrap v5.3.3-->
+    <script src="../../test.resonance.com.sg/sgci/js/bootstrap.js"></script>
+
+    <!--jQuery v3.7.0-->
+    <script src="../../test.resonance.com.sg/sgci/js/jQuery.js"></script>
+
+    <script src="../../test.resonance.com.sg/sgci/js/custom.js"></script>
+
+
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Existing dropdown code...
+
+            // Entries dropdown functionality
+            var entriesDropdown = document.getElementById('entriesDropdown');
+            var dropdownItems = entriesDropdown.nextElementSibling.querySelectorAll('.dropdown-item');
+
+            dropdownItems.forEach(function (item) {
+                item.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    entriesDropdown.textContent = this.textContent;
+                });
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            // Function to handle main checkbox change
+            function handleMainCheckboxChange() {
+                var childDivId = $(this).attr('checkchild');
+                $('#' + childDivId + ' input[type="checkbox"]').prop('checked', this.checked);
+            }
+
+            // Function to handle child checkbox change
+            function handleChildCheckboxChange() {
+                var parentCheckbox = $(this).closest('.ps-3').prev().find('input[type="checkbox"]');
+                var allChildCheckboxes = $(this).closest('.ps-3').find('input[type="checkbox"]');
+                var allChecked = allChildCheckboxes.length === allChildCheckboxes.filter(':checked').length;
+                parentCheckbox.prop('checked', allChecked);
+            }
+
+            // Attach event handlers to all main checkboxes
+            $('input[type="checkbox"][checkchild]').change(handleMainCheckboxChange);
+
+            // Attach event handlers to all child checkboxes
+            $('.ps-3 input[type="checkbox"]').change(handleChildCheckboxChange);
+        });
+    </script>
+
+<script>
+    function truncateTextByClass(className, maxLength) {
+      // Select the element inside .mast-text (first child)
+      var element = document.querySelector(`.${className} > p`);
+  
+      // Check if the element is correctly selected
+      console.log(element); // Log the element to the console
+  
+      if (element) {
+        var originalText = element.textContent;
+        console.log("Original Text: " + originalText); // Log original text
+      }
+    }
+  
+    // Call the function
+    truncateTextByClass('mast-text', 5);
+  </script>
+
+
+
+</body></html>
