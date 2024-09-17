@@ -176,7 +176,7 @@ header .form-group .icon.right {
     top: 0;
     width: 200px;
     height: 100%;
-    transform: skewX(15deg);
+    /* transform: skewX(15deg); */
     background-color: var(--white);
     right: calc(100% - 80px)
 }
