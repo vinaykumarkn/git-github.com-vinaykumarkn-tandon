@@ -11,7 +11,7 @@ header .form {
     flex-grow: unset;
     width: 490px;
     flex-shrink: 0;
-    padding: 60px 10px 60px 60px;
+    padding: 60px 60px 60px 60px;
     margin-bottom: 0;
     position: relative;
     z-index: 1
@@ -144,12 +144,31 @@ header .form-group .icon.right {
 
 .header-right {
     width: 100%;
-    background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+    /* background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif); */
     background-size: cover;
     background-position: center;
     border-radius: 0 8px 8px 0;
-    position: relative
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
+
+.iam{
+    color: white;
+      font-size: 55px;
+      padding: 15px;
+      font-family: sans-serif;
+  }
+  .text{
+    color: white;
+      border-right: 2px solid red;
+      font-size: 55px;
+      font-family: sans-serif;
+      color: rgb(255, 30, 0);
+  }
 
 .header-right::before {
     content: "";
@@ -157,7 +176,7 @@ header .form-group .icon.right {
     top: 0;
     width: 200px;
     height: 100%;
-    transform: skewX(-15deg);
+    transform: skewX(-16deg);
     background-color: var(--white);
     right: calc(100% - 80px)
 }
