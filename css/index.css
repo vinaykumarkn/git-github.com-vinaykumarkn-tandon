@@ -685,7 +685,7 @@ header .form-group .close-btn {
 }
 
 #sale-marketplace .sale-marketplace__item {
-    flex: 1 1 280px;
+    flex: 1 1 180px;
     display: flex;
     align-items: center;
     margin: 0 1.25rem 2rem 0
@@ -1220,7 +1220,7 @@ body {
 }
 
 .btn-green {
-    background: var(--green)
+    background: #488CCB;
 }
 
 .btn-green:hover {
@@ -1424,10 +1424,17 @@ li:hover .navbar-menu-dropdown {
 }
 
 footer {
-    background-color: #212121;
+    background-color: #0A0118;
     position: relative;
     padding-top: 40px;
     padding-bottom: 24px
+}
+
+.footer__item  ul li a {
+    color: #488CCB !important;
+}
+.footer__item p a {
+    color: #94B8BB !important;
 }
 
 .footer-bg {
