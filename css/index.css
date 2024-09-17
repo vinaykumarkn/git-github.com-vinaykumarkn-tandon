@@ -161,6 +161,9 @@ header .form-group .icon.right {
     background-color: var(--white);
     right: calc(100% - 80px)
 }
+#viewed-business{
+    background: var(--white-d-1);
+}
 
 @media screen and (max-width:767px) {
     .header-right {
